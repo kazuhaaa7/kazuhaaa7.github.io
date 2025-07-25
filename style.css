@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #133a94;
+  color: #eaeeea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Helvetica", sans-serif;
+  padding-top: 3.5rem;
+  padding-bottom: 2rem;
+  gap: 1rem;
+}
+.bg-text-animation {
+  position: absolute;
+  top: 9rem;
+  font-size: 11rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  -webkit-text-stroke: 2px #1a2238;
+  -webkit-text-fill-color: transparent;
+  z-index: -1;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+.my-photo {
+  width: 12rem;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  margin-bottom: 2rem;
+  /* object-position: top; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /*jiika ada sytax ini maka color akan kembali ke warna sebelumnya(parent)*/
+}
+
+.sosmed i {
+  font-size: 1.5rem;
+  color: #8787a3;
+}
+.sosmed i:hover {
+  color: #eaeaea;
+}
+
+.sosmed a:not(:last-child) {
+  margin-right: 1rem;
+}
+
+ul {
+  width: 80%;
+  max-width: 40rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul.sosmeds li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.sosmeds {
+  margin-top: 1rem;
+}
+
+.link-card {
+  display: flex;
+  align-items: center;
+  background-color: #2d2d56;
+  box-shadow: 8px 10px 8px #0f0f25;
+  padding: 1rem;
+  border-radius: 20px;
+  justify-content: space-between;
+  border: 3px solid #2d2d56;
+}
+
+.link-card:hover {
+  border: 3px solid #eaeaea;
+}
+.link-icon {
+  background-image: linear-gradient(to bottom, purple, cyan);
+  padding: 0.5rem;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+}
+
+.link-action {
+  color: #8787a3;
+  cursor: pointer;
+  padding: 12px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #8787a3;
+  gap: 0.8rem;
+}
+
+.copyright img {
+  width: 8rem;
+  opacity: 0.2rem;
+}
+
+#toast {
+  width: max-content;
+  position: fixed;
+  top: 0;
+}
+
+.toast-container {
+  background-color: #eaeaee;
+  color: #0f0f25;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  animation: muncul 300ms ease-in-out;
+}
+.toast-gone {
+  animation: hilang 1s ease-in-out 1s;
+}
+
+@keyframes muncul {
+  from {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hilang {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
