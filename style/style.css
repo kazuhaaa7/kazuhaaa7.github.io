@@ -106,12 +106,13 @@ ul.sosmeds li:not(:last-child) {
 /* end sosmed section */
 
 /* start feture section */
-.feature bg-light{
-  background: #eaeaea;
-  margin: 100px 0px;
+.custom-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
-.main {
-  color: #0f0f25;
+
+.custom-scroll {
+  -ms-overflow-style: none;  /* IE dan Edge lama */
+  scrollbar-width: none;     /* Firefox */
 }
 /* end feature section */
 
