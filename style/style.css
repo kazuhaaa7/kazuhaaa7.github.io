@@ -19,7 +19,12 @@ body {
   padding-bottom: 2rem;
   gap: 1rem;
 }
-.bg-text-animation {
+/* section */
+custom-max {
+  max-width: 896px;}
+/* end section */
+
+/* .bg-text-animation {
   position: absolute;
   top: 9rem;
   font-size: 11rem;
@@ -30,11 +35,11 @@ body {
   z-index: -1;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   user-select: none;
-}
+} */
 
-.my-photo {
-  width: 12rem;
-  border-radius: 50%;
+.myphoto {
+  width: 10rem;
+  height: 10rem;
   aspect-ratio: 1/1;
   object-fit: cover;
   margin-bottom: 2rem;
