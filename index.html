@@ -11,23 +11,26 @@
 
     <!-- boostrap ga bisa responsive ya, perlu css yg spesifik| belajar tailwind -->
   </head>
-  <body class="bg-primary-subtle">
+  <body class="bg-dark bg-gradient">
     <!--  Background Animation Text-->
       <!-- <span class="bg-text-animation">hello</span> -->
        <!-- navbar -->
-<nav class="navbar navbar-expand-xl bg-body-tertiary fixed-top ">
+<nav class="navbar navbar-expand-xl fixed-top bg-dark bg-gradient shadow p-3 mb-5 rounded ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <a class="navbar-brand text-white" href="#psection">Home</a>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav justify-content-end ms-auto me-2">
         <li class="nav-item ms-3">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-white" aria-current="page" href="#footer">Footer</a>
         </li>
         <li class="nav-item ms-3">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link active text-white" aria-current="page" href="#edukasi">Education</a>
         </li>
-        <li class="nav-item dropdown ms-3">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item ms-3">
+          <a class="nav-link text-white" href="#fsection">Feature </a>
+        </li>
+        <!-- <li class="nav-item dropdown ms-3">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
           <ul class="dropdown-menu me-3">
@@ -36,7 +39,7 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
+        </li> -->
         <!-- <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li> -->
@@ -50,18 +53,18 @@
 </nav>
         <!-- end navbar -->
       <!-- Profile -->
-    <section class="pt-5 pb-3 " id="section">
+    <section class="pt-5 pb-3 " id="psection">
       <div class="container px-4 mx-auto">
         <div class="d-flex align-items-center gap-5">
           <div class="mx-auto custom-max">
             <p class="fs-5 fw-semibold text-primary">Lorem, ipsum dolor.</p>
             <h1 class="mt-4 fs-2 fs-1 fw-semibold text-primary">Student in University of Jember</h1>
             <br>
-            <span class="fw-semibold" >Base in Indonesia</span>
+            <span class="fw-semibold text-white" >Base in Indonesia</span>
             <div class="d-flex align-items-center justify-content-between gap-5 mt-3 text-secondary">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt voluptates magni aut delectus, sit accusantium omnis fugit, culpa vel ex aspernatur accusamus consequatur quod unde, fugiat reiciendis eveniet? Nam corrupti expedita qui hic maiores consectetur beatae alias adipisci ipsam, explicabo fugit animi quis omnis! Ratione voluptate accusamus nulla minima perspiciatis similique pariatur labore ut, alias incidunt recusandae molestias ipsa illo quos et libero perferendis magnam aut. Neque nesciunt ab cumque, est sapiente harum velit id omnis quis fugiat perspiciatis a, autem nihil quaerat quod consequuntur dolores corrupti sint similique. Voluptas hic rem molestias, officiis quam ipsum alias molestiae praesentium!
+              <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt eum inventore quisquam sunt? Amet eveniet quae nobis sapiente incidunt, dignissimos dicta deleniti aut accusantium. Quibusdam, quasi repellendus, at ut vel eveniet vero pariatur accusamus possimus, deserunt odit iste fugit aliquid a ex nesciunt quas! Distinctio dolore et, consectetur animi eius veniam magni, nemo unde, voluptas delectus iure fugit tempora ipsam exercitationem quas saepe dolor quo blanditiis! Rerum architecto exercitationem culpa voluptatibus mollitia veniam odit vitae. Doloribus eligendi facere praesentium magnam? Cum quos quisquam excepturi id corporis aspernatur, placeat, et exercitationem architecto rerum harum suscipit dolores! Ad eveniet laudantium laborum necessitatibus, fugit provident quos ipsum tempore iure labore vel dolore repudiandae ipsam dolor vitae non. Soluta non, eaque officiis vero quisquam veniam veritatis, ab corrupti natus aspernatur similique praesentium, possimus consequuntur tempore aut sit corporis hic dolore facere quibusdam? Veritatis praesentium ipsum, veniam ut repellat accusantium nam aperiam quo quam vel. Incidunt magnam asperiores provident quae maiores sapiente. Omnis ducimus corporis et nam! Voluptatem odit rem blanditiis obcaecati debitis deleniti, porro vero praesentium sunt est consequatur maiores quisquam? Exercitationem eum commodi dolorum ipsam aliquam sapiente! Veritatis animi dolore, suscipit iste minima, minus, odio commodi incidunt vero dolorum quo voluptate dolor.
               </p>
-              <img src="img/myphoto.jpg" alt="photoku" class="myphoto d-block ">
+              <img src="img/myphoto.jpg" alt="photoku" class="myphoto d-block rounded ">
             </div>
             <p class="mt-2 fw-semibold text-primary">Tedch Tools</p>
             <ul class="d-flex align-items-center gap-3 mt-1">
@@ -160,13 +163,13 @@
 <!-- end link -->
 
 <!-- feature section  -->
-<div class="mt-5 rowd d-flex overflow-auto custom-scroll gap-3 p-3 row-cols-1 row-cols-md-3 g-4">
-  <div class="col ms-4">
-    <div class="card h-100" style= "min-width:180px;">
-      <img src="..." class="card-img-top" alt="...">
+<section class="mt-5 rowd d-flex overflow-auto custom-scroll gap-3 p-3 row-cols-1 row-cols-md-3 g-4" id="fsection">
+  <div class="col ms-5 w-5">
+    <div class="card h-60" style= "min-width:180px;" href="https://drive.google.com/file/d/1kGDrXUyh-ZbiUQrSnyVMhQ8r51rf0dxL/view?usp=drive_link" target="_blank">
+      <img src="img/sertif1.png" class="card-img-top w-10" alt="sertif1"  >
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Cours</h5>
+        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, ex.</p>
       </div>
       <div class="card-footer">
         <small class="text-body-secondary">Last updated 3 mins ago</small>
@@ -174,19 +177,7 @@
     </div>
   </div>
   <div class="col">
-    <div class="card h-100" style= "min-width:180px;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-body-secondary">Last updated 3 mins ago</small>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100" style= "min-width:180px;">
+    <div class="card h-60" style= "min-width:180px;">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -198,7 +189,7 @@
     </div>
   </div>
   <div class="col">
-    <div class="card h-100" style= "min-width:180px;">
+    <div class="card h-60" style= "min-width:180px;">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -210,7 +201,19 @@
     </div>
   </div>
   <div class="col">
-    <div class="card h-100" style= "min-width:180px;">
+    <div class="card h-60" style= "min-width:180px;">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-60" style= "min-width:180px;">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -221,9 +224,33 @@
       </div>
     </div>
   </div>
-</div>
+</section>
+<!-- end feature setion -->
+
+<!-- section education -->
+<section class="" id="edukasi">
+  <div>
+    <h2>education</h2>
+  </div>
+  <div>
+    <ul>
+      <li>
+        <a href="">
+          <div>
+            <p>S1 (Sarjana) Information System</p>
+            <p>diisi IPK</p>
+          </div>
+          <p>selama brp tahun
+        
+          </p>
+
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
 <!-- start footer -->
-<div class="copyright">
+<div class="copyright" id="footer">
     <img src="img/foto1.png" alt="">
     <p>Copyright Fathor Rossi &copy; 2024</p>
 </div>
